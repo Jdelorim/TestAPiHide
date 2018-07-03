@@ -1,9 +1,10 @@
-$(document).ready(function () {
-var x = "hello world";
-$("#hello").text(x);
 
+
+
+var x = "hello world";
 var mykey = config.MY_KEY;
+document.getElementById("jDude").innerText = mykey;
+
+
 console.log(mykey);
 
-
-});
